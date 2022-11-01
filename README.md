@@ -1,2 +1,9 @@
-# k8s-datdog-lab4
-Monitoring the Kubernetes Platform
+![](./img/img1.png)
+
+# etcd
+
+# the API Server
+
+# the Controller Manager and Scheduler
+
+# CoreDNS
