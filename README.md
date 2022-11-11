@@ -11,7 +11,7 @@
 
 # [The control Plane: API Server](./page/control-plane-apiserver.md)
 
-# [The control Plane: Controller and Scheduler](./page/control-plane-controller-scheduler.md)
+# [The control Plane: Controller Manager and Scheduler](./page/control-plane-controller-scheduler.md)
 
 # [The control Plane: CoreDNS](./page/control-plane-coredns.md)
 
