@@ -1,12 +1,12 @@
 ### 1. Install helm chart with the following command:
 ```
-helm install datadogagent --set datadog.apiKey=$DD_API_KEY --set datadog.appKey=$DD_APP_KEY -f dd-agent-values.yaml datadog/datadog
+helm install datadogagent --set datadog.apiKey=$DD_API_KEY --set datadog.appKey=$DD_APP_KEY -f values.yaml datadog/datadog
 ```
 
 ### 2. Look in the event stream for the Agents to show up.
 
 ### 3. Next navigate to the Integrations page and open the Kubernetes integration. Click on the Configuration tab, and then click the Install button.
-![](./../img/dd-1-1.png)
+![](./img/dd-1-1.png)
 
 
 ### 4. You can also run the Agent status command to make sure the checks are running OK now:
@@ -15,10 +15,10 @@ kubectl exec -ti $(kubectl get pods -l app=datadogagent -o jsonpath='{.items[0].
 ```
 
  ### 5. Metrics Summary page and you should see the kubernetes metrics start to appear. 
- ![](../img/dd-1-2.png)
+ ![](./img/dd-1-2.png)
  
  ### 6. Take a look at the Kubernetes - Overview dashboard. Note that it can take a while for metrics to populate at first.
- ![](../img/dd-1-3.png)
+ ![](./img/dd-1-3.png)
 
 
 ### 7. Now verify the health checks. You need the IP address of the Agent pod. You could use something like this:

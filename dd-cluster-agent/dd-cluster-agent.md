@@ -3,7 +3,7 @@
 ### 2. Install dd cluster agent
 
 ```
-helm install datadogagent --set datadog.apiKey=$DD_API_KEY --set datadog.appKey=$DD_APP_KEY -f dd-cluster-agent-values.yaml datadog/datadog
+helm install datadogagent --set datadog.apiKey=$DD_API_KEY --set datadog.appKey=$DD_APP_KEY -f values.yaml datadog/datadog
 ```
 
 ### 3. Look at the pods that are now running. 
@@ -20,7 +20,7 @@ kubectl exec -ti $(kubectl get pods -l app=datadogagent-cluster-agent -o jsonpat
 k exec -ti $(k get pods -l app=datadogagent-cluster-agent -o jsonpath='{.items[0].metadata.name}') -- agent metamap
 ```
 ### 6. Navigate to the Metrics Summary page and search for cluster_agent. Notice that you now have access to a number of new metrics.
-![](../img/dd-2-1.png)
+![](./img/dd-2-1.png)
 
 ### 7. There are a number of other features you get with the Cluster Agent that help with applications running on top of your Kubernetes cluster.
 

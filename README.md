@@ -3,16 +3,16 @@
 ![](./img/dd1.png)
 ![](./img/dd2.jpg)
 
-# [Install datadog-agent](./page/dd-agent.md)
+# [Install datadog-agent](./dd-agent/dd-agent.md)
 
-# [Install datadog-cluster-agent](./page/dd-cluster-agent.md)
+# [Install datadog-cluster-agent](./dd-cluster-agent/dd-cluster-agent.md)
 
-# [The control Plane: etcd](./page/control-plane-etcd.md)
+# [The control Plane: etcd](./etcd/control-plane-etcd.md)
 
-# [The control Plane: API Server](./page/control-plane-apiserver.md)
+# [The control Plane: API Server](./apiserver/control-plane-apiserver.md)
 
-# [The control Plane: Controller Manager and Scheduler](./page/control-plane-controller-scheduler.md)
+# [The control Plane: Controller and Scheduler](./controler-manager-scheduler/control-plane-controller-scheduler.md)
 
-# [The control Plane: CoreDNS](./page/control-plane-coredns.md)
+# [The control Plane: CoreDNS](./coredns/control-plane-coredns.md)
 
 # Summary
